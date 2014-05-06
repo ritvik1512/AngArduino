@@ -1,0 +1,30 @@
+.reveal.rtl .slides,
+.reveal.rtl .slides h1,
+.reveal.rtl .slides h2,
+.reveal.rtl .slides h3,
+.reveal.rtl .slides h4,
+.reveal.rtl .slides h5,
+.reveal.rtl .slides h6 {
+  direction: rtl;
+  font-family: sans-serif;
+}
+
+.reveal pre {
+  padding: 1.2em;
+}
+
+pre.sourceCode {
+  box-shadow: 0;
+}
+
+.reveal section img {
+  border: 0;
+}
+
+.emp {
+  color: #DD4B39;
+}
+
+.sourceCode .co {
+  color: #E98662;
+}

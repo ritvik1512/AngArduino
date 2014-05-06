@@ -1,6 +1,3 @@
-% Powering Human Interaction with Arduino and Angular.js
-% powering the arduino with angular.js
-
 ## Ritvik Choudhary
 
 ## Arduino?

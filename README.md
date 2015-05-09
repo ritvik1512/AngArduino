@@ -1,39 +1,16 @@
 ## Ritvik Choudhary
 
-## Arduino?
-
-- Embedded systems
-- Wearable computing
-- Low-power systems
 
 ## Overview
 
 - Running an HTTP server on the arduino
 - Requesting the HTML from the arduino
 - Loading angular app
-- Communicating to Angular from the Arduino
-- Communicating to the Arduino from Angular
-
-
-## Enter TinyWebServer
-
-Enables simplification of the c HTTP server code
-
------------------------
 
 ## Connecting to the net
 
 - Ethernet shield
 - Wifi shield
-
-## But where's the HTML
-
-## Options
-
-#### Embed HTML in Arduino
-#### Read/Send from SD card
-#### Load from remote server
-
 -------------------------
 ## But where's the Angular
 ----------------------------------
@@ -216,11 +193,5 @@ setPins: function(pins) {
   });
 }
 ```
-
-## Parsing in c
-
------------------------------
-
-## Thanks
 
 ### Ritvik Choudhary

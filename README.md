@@ -11,9 +11,8 @@
 
 - Ethernet shield
 - Wifi shield
--------------------------
+
 ## But where's the Angular
-----------------------------------
 
 ```javascript
 (function() {

@@ -1,19 +1,19 @@
-## AngArduino
+# AngArduino
 
 Angular works with JSON by default (just javascript), but the Arduino does not. However, parsing a schemaless data structure in a strictly typed language is <span class="emp">difficult</span>.
 
-# What it does:
+### What it does:
 
 - Running an HTTP server on the arduino
 - Requesting the HTML from the arduino
 - Loading angular app
 
-# Connect via
+### Connect via
 
 - Ethernet shield
 - Wifi shield
 
-# Angular examples:
+### Angular examples:
 
 ```javascript
 (function() {
@@ -67,13 +67,13 @@ angular.module('myApp', [
 });
 ```
 
-## What I did
+### What I did
 
 - Turning pins on/HIGH
 - Turning pins off/LOW
 - Measuring pin voltage
 
-## Getting pin status
+### Getting pin status
 
 ```javascript
 // ...
@@ -117,7 +117,7 @@ bool pinsToString(TinyWebServer& web_server) {
 ```
 
 
-# Creating our own protocol
+### Creating our own protocol
 
 Turn JSON from:
 
@@ -166,7 +166,7 @@ to
 p7a0 (4 bytes)
 ```
 
-## Using the service
+### Using the service
 
 ```javascript
 setPins: function(pins) {
@@ -182,4 +182,4 @@ setPins: function(pins) {
 }
 ```
 
-# Contributions are welcome, even though it's a pretty out of date project.
+#### Contributions are welcome, even though it's a pretty out of date project.

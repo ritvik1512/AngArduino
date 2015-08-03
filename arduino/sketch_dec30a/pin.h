@@ -3,7 +3,7 @@
 
 // PINS DEFINED
 enum PinType { INPUT_T, OUTPUT_T, ONEWIRE}; //Pin Types defined.
-enum PinState { HIGH_STATE, LOW_STATE };
+enum PinState { HIGH_STATE, LOW_STATE }; //Pin States defined.
 
 class Pin { 
 private:

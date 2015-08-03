@@ -1,4 +1,4 @@
-// Custom reveal.js integration
+// Custom reveal.js integration and well commented for calrification and understanding.
 (function(){
 	var isEnabled = true;
 
@@ -15,13 +15,7 @@
 	Reveal.addEventListener( 'overviewhidden', function() { isEnabled = true; } );
 })();
 
-/*!
- * zoom.js 0.2 (modified version for use with reveal.js)
- * http://lab.hakim.se/zoom-js
- * MIT licensed
- *
- * Copyright (C) 2011-2012 Hakim El Hattab, http://hakim.se
- */
+
 var zoom = (function(){
 
 	// The current zoom level (scale)

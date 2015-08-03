@@ -28,7 +28,7 @@ public:
   void    setCurrentValue(float);
   float   getCurrentValue();
 
-  void InitializeState();
+  void InitializeState();   //Initialization
   void Print();
 };
 

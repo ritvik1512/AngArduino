@@ -5,7 +5,7 @@
 enum PinType { INPUT_T, OUTPUT_T, ONEWIRE}; //Pin Types defined.
 enum PinState { HIGH_STATE, LOW_STATE }; //Pin States defined.
 
-class Pin { 
+class Pin { //Pin Classes
 private:
   uint8_t _pin;
   uint8_t _digitalState;

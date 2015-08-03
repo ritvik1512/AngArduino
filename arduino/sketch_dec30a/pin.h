@@ -1,11 +1,11 @@
 #ifndef _PIN_H
 #define _PIN_H
 
-// PINS
-enum PinType { INPUT_T, OUTPUT_T, ONEWIRE};
+// PINS DEFINED
+enum PinType { INPUT_T, OUTPUT_T, ONEWIRE}; //Pin Types defined.
 enum PinState { HIGH_STATE, LOW_STATE };
 
-class Pin {
+class Pin { 
 private:
   uint8_t _pin;
   uint8_t _digitalState;
@@ -18,7 +18,7 @@ public:
   Pin(uint8_t num, PinType type);
   ~Pin();
 
-  float analogValue;
+  float analogValue; 
   uint8_t getPin();
   void    setPin(uint8_t);
   float   getState();

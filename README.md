@@ -8,7 +8,7 @@ Angular works with JSON by default (just javascript), but the Arduino does not. 
 - Requesting the HTML from the arduino
 - Loading angular app
 
-### Connect via
+### Can connect via
 
 - Ethernet shield
 - Wifi shield
